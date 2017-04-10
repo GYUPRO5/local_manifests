@@ -31,7 +31,7 @@
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="cm-14.1-caf" />
   
   <!-- Additional -->
-  <project path="external/bson" name="android_external_bson" remote="bson" revision="cm-14.1" />
+  <project path="external/bson" name="android_external_bson" remote="los" revision="cm-14.1" />
 
 </manifest>  
 	
