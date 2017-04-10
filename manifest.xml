@@ -8,15 +8,18 @@
   
   <!-- Remove -->
   <remove-project name="platform/hardware/qcom/wlan" />
-
-  <!-- Device tree && Kernel (Addison) -->
-  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="gyu" revision="n-mr1" />
+  <remove-project name="platform/hardware/qcom/power" />
+  
+  <!-- Device tree && Kernel (Addison, Athene) -->
+  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="gyu" revision="cm-14.1" />
   <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
-  
+  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="gyu" revision="cm-14.1" />  
+  <project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="los" revision="cm-14.1" />
+
   <!-- Device tree && Kernel (Bullhead) -->
-  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="gyu" revision="aex" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="gyu" revision="cm-14.1" />
   <project path="kernel/lge/bullhead" name="lineageos/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
-  
+    
   <!-- Vendor Lge && Motorola -->
   <project path="vendor/lge" name="themuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
   <project path="vendor/motorola" name="alberto97/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
@@ -32,6 +35,6 @@
   
   <!-- Additional -->
   <project path="external/bson" name="android_external_bson" remote="los" revision="cm-14.1" />
-
+  
 </manifest>  
 	
