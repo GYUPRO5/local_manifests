@@ -7,8 +7,8 @@
   	  fetch="https://github.com/lineageos/" />
   
   <!-- Remove -->
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware_qcom_wlan" />
+  <remove-project name="platform/hardware_qcom_power" />
   
   <!-- Device tree && Kernel (Addison, Athene) -->
   <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="cm-14.1" />
@@ -26,11 +26,11 @@
   
   <!-- Hardware Repos -->
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8932" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8932" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8932" />
   <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8932" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8932" />
+  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8932" />
   <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8932" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8932" />
+  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8932" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="cm-14.1-caf" />
   
   <!-- Additional -->
