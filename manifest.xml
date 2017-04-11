@@ -11,9 +11,9 @@
   <remove-project name="platform/hardware/qcom/power" />
   
   <!-- Device tree && Kernel (Addison, Athene) -->
-  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="cm-14.1" />
+  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="n-mr1" />
   <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
-  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="cm-14.1" />  
+  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="n-mr1" />  
   <project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="los" revision="cm-14.1" />
 
   <!-- Device tree && Kernel (Bullhead) -->
@@ -35,6 +35,7 @@
   
   <!-- Additional -->
   <project path="external/bson" name="android_external_bson" remote="los" revision="cm-14.1" />
+  <project path="system/qcom" name="android_system_qcom" remote="los" revision="cm-14.1" />
   
 </manifest>  
 	
