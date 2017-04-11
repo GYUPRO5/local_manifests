@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="plz"
+  <remote name="git"
 	  fetch="https://github.com/gyupro5/" />
   <remote name="los"
   	  fetch="https://github.com/lineageos/" />
@@ -11,13 +11,13 @@
   <remove-project name="platform/hardware/qcom/power" />
   
   <!-- Device tree && Kernel (Addison, Athene) -->
-  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="plz" revision="cm-14.1" />
+  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="cm-14.1" />
   <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
-  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="plz" revision="cm-14.1" />  
+  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="cm-14.1" />  
   <project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="los" revision="cm-14.1" />
 
   <!-- Device tree && Kernel (Bullhead) -->
-  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="plz" revision="cm-14.1" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="git" revision="cm-14.1" />
   <project path="kernel/lge/bullhead" name="lineageos/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
     
   <!-- Vendor Lge && Motorola -->
