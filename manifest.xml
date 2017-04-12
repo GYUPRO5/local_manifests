@@ -7,8 +7,8 @@
   	  fetch="https://github.com/lineageos/" />
   
   <!-- Remove -->
-  <remove-project name="platform/hardware_qcom_wlan" />
-  <remove-project name="platform/hardware_qcom_power" />
+  <remove-project name="android_hardware_qcom_wlan" />
+  <remove-project name="android_hardware_qcom_power" />
   
   <!-- Device tree && Kernel (Addison, Athene) -->
   <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="n-mr1" />
