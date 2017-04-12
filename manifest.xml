@@ -10,11 +10,9 @@
   <remove-project name="android_hardware_qcom_wlan" />
   <remove-project name="android_hardware_qcom_power" />
   
-  <!-- Device tree && Kernel (Addison) -->
+  <!-- Addison -->
   <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="n-mr1" />
   <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
- 
-  <!-- Vendor Motorola -->
   <project path="vendor/motorola" name="alberto97/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   
   <!-- Hardware Repos -->
