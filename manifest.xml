@@ -10,12 +10,12 @@
   <remove-project name="android_hardware_qcom_wlan" />
   <remove-project name="android_hardware_qcom_power" />
   
-  <!-- Addison -->
+  <!-- Device -->
   <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="n-mr1" />
   <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
   <project path="vendor/motorola" name="alberto97/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   
-  <!-- Hardware Repos -->
+  <!-- Hardware -->
   <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8937" />
   <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8937" />
   <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8937" />
