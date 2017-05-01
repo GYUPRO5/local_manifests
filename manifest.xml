@@ -5,14 +5,10 @@
   <remote name="los"
   	  fetch="https://github.com/lineageos/" />
   
-  <!-- Remove -->
-  <remove-project name="android_hardware_qcom_wlan" />
-  <remove-project name="android_hardware_qcom_power" />
-  
   <!-- Device -->
-  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="n-mr1" />
-  <project path="kernel/motorola/msm8952" name="lineageos/android_kernel_motorola_msm8952" remote="github" revision="cm-14.1" />
-  <project path="vendor/motorola" name="alberto97/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
+  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="n-mr2" />
+  <project path="kernel/motorola/msm8952" name="flar2/kernel-msm2" remote="github" revision="ElementalX-1.00LOS" />
+  <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8952" />
