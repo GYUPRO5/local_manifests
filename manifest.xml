@@ -7,7 +7,7 @@
   
   <!-- Device -->
   <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="n-mr2" />
-  <project path="kernel/motorola/msm8952" name="flar2/kernel-msm2" remote="github" revision="ElementalX-1.00LOS" />
+  <project path="kernel/motorola/msm8952" name="flar2/kernel-msm" remote="github" revision="ElementalX-1.00-LOS" />
   <project path="vendor/motorola" name="boulzordev/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
   
   <!-- Hardware -->
