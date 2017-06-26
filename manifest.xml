@@ -3,39 +3,31 @@
 
   <remote name="git"
 	  fetch="https://github.com/gyupro5/" />
-  <remote name="los"
-  	  fetch="https://github.com/lineageos/" />
+  <remote name="pure-mod"
+          fetch="https://github.com/purenexusproject-mod/" />
   
   <!-- Remove -->
-  <remove-project name="android_hardware_qcom_wlan" />
-  <remove-project name="android_hardware_qcom_power" />
-  
-  <!-- Device tree && Kernel (Addison, Athene) -->
-  <project path="device/motorola/addison" name="android_device_motorola_addison" remote="git" revision="n-mr1" />
-  <project path="kernel/motorola/msm8953" name="alberto97/android_kernel_motorola_msm8953" remote="github" revision="cm-14.1" />
-  <project path="device/motorola/athene" name="android_device_motorola_athene" remote="git" revision="n-mr1" />  
-  <project path="kernel/motorola/msm8952" name="android_kernel_motorola_msm8952" remote="los" revision="cm-14.1" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_av" />
+  <remove-project name="platform/system/media" />
+  <remove-project name="android_device_moto_shamu" />
+  <remove-project name="android_kernel_moto_shamu" />
+  <remove-project name="android_device_lge_bullhead" />
+  <remove-project name="android_device_huawei_angler" /> 
+  <remove-project name="android_kernel_huawei_angler" />
+  <remove-project name="android_kernel_google_marlin" />
+  <remove-project name="android_device_google_marlin" />
+  <remove-project name="android_kernel_google_dragon" />
+  <remove-project name="android_device_google_dragon" />
+  <remove-project name="android_packages_apps_MusicFX" />
 
-  <!-- Device tree && Kernel (Bullhead) -->
-  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="git" revision="cm-14.1" />
-  <project path="kernel/lge/bullhead" name="lineageos/android_kernel_lge_bullhead" remote="github" revision="cm-14.1" />
-    
-  <!-- Vendor Lge && Motorola -->
-  <project path="vendor/lge" name="themuppets/proprietary_vendor_lge" remote="github" revision="cm-14.1" />
-  <project path="vendor/motorola" name="alberto97/proprietary_vendor_motorola" remote="github" revision="cm-14.1" />
-  
-  <!-- Hardware Repos -->
-  <project path="hardware/qcom/audio-caf/msm8952" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/audio-caf/msm8937" name="android_hardware_qcom_audio" remote="los" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/display-caf/msm8952" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/display-caf/msm8937" name="android_hardware_qcom_display" remote="los" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/media-caf/msm8952" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8952" />
-  <project path="hardware/qcom/media-caf/msm8937" name="android_hardware_qcom_media" remote="los" revision="cm-14.1-caf-8937" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="cm-14.1-caf" />
-  
-  <!-- Additional -->
-  <project path="external/bson" name="android_external_bson" remote="los" revision="cm-14.1" />
-  <project path="system/qcom" name="android_system_qcom" remote="los" revision="cm-14.1" />
-  
+  <!-- Repos -->
+  <project path="frameworks/base" name="android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="git" revision="n-mr2" />
+  <project path="frameworks/av" name="android_frameworks_av" groups="pdk-cw-fs,pdk-fs" remote="git" revision="n-mr2" />  
+  <project path="system/media" name="android_system_media" groups="pdk-cw-fs,pdk-fs" remote="git" revision="master" />
+  <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="pure-mod" revision="n-mr2" />
+  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="pure-mod" revision="n-mr2" />
+  <project path="device/lge/bullhead" name="bullhead" remote="git" revision="pure" />
+
 </manifest>  
 	
